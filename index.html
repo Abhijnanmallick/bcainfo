@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+    margin:0rem;
+    padding:0rem;
+}
+
+html{
+    font-size:10px;
+    font-size: 62.5%;
+}
+
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.crio.do/blog/content/images/2020/09/Sep_01.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+.tab{
+    height: 9vh;
+    background-color: rgba(127, 255, 212, 0.258);
+}
+.bcatag{
+    text-align: center;
+    margin-top:20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 9rem;
+    color: rgba(250, 235, 215, 0.374);
+    text-decoration: none;
+    animation: changer 10s infinite linear;
+}
+@keyframes changer{
+    0%{
+        color: rgba(250, 235, 215, 0.374);
+    }
+    50%{
+        color: rgba(250, 235, 215, 0.766);
+    }
+    100%{
+        color:rgb(255, 255, 255);
+    }
+    90%{
+        color: rgba(255, 255, 255, 0.765);
+    }
+}
+
+a{
+    text-decoration: none;
+}
+.syllabus{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.syll{
+    transition: 900ms ease;
+    transform:rotate(2rem);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.syll:hover{
+    background-color: red;
+    padding:3rem;
+}
+
+.teachers{
+    transition: 900ms ease;
+    transform:matrix3d(4rem);
+    background-color: rgba(0, 0, 0, 0.156);
+    padding: 2rem;
+    font-family: cursive;
+}
+.teachers:hover{
+    background-color: black;
+    
+}
+
+.books{
+    color:rgb(40, 255, 11);
+    transform: matrix(2rem);
+    transition: 1000ms ease-in-out;
+}
+.books:hover{
+    color:rgb(255, 255, 255);
+    font-size:3rem;
+background-color: rgba(127, 255, 212, 0.305);
+padding:4rem;
+}
+b
+{
+    margin-left:4rem;
+    
+}
+
+.move{
+    margin-top:16px;
+    color:rgb(195, 255, 0);
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 3.9rem;
+    letter-spacing: 1rem;
+}
+.support{
+    color:red;
+    transition: 900ms;
+    transform: matrix(.5rem);
+}
+.support:hover{
+    color:white;
+    background-color: red;
+    border-radius: 2.5rem;
+    padding:1rem;
+}
+
+.uppers{
+    margin-top:1rem;
+    text-align: left;
+    font-size: 3rem;
+    padding:1rem;
+    background:rgba(255, 255, 255, 0.287);
+}
+
+/* @media only screen and (max-width: 600px)
+{
+    html{
+        font-size:.6rem;
+    }
+    .uppers{
+        text-align:center;
+    }
+
+} */
+
+
+@media only screen and (max-width: 1000px){
+    html{
+        font-size:30%;
+    }
+    .move{
+        font-size:6rem;
+        color:rgb(17, 255, 0);
+        margin-top:.9rem;
+    }   
+    .tab{
+        height:6vh;
+    }
+    .bcatag{
+        font-size:9rem;
+        margin-top:50%;
+    }
+    .uppers{
+        text-align:center;
+    }
+    .syllabus{
+        font-size:2rem;
+    }
+    .books:hover{
+        padding:2rem;
+        font-size: 2rem;
+    }
+
+}
+</style>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bca-third-sem</title>
+</head>
+<body>
+    <div class="tab"><marquee class="move">MACAUT</marquee></div>
+    <div class="uppers">
+    <a class="syllabus" href=""><b class="syll">SYLLABUS</b></a>
+    <a class="syllabus" href=""><b class="teachers">TEACHERS</b></a>
+    <a class="syllabus" href="https://abhijnanmallick.github.io/bca3rdsemister/"><b class="books">BOOKS</b></a>
+    <a class="syllabus" href=""><b class="exam">EXAM</b></a>
+    <a class="syllabus" href=""><b class="support">SUPPORT</b></a>
+    </div>
+    <h1 class="bcatag">Bca third semister</h1>
+</body>
+</html>
